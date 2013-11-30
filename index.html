@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Marquee</title>
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/led.css" rel="stylesheet" />
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.animate-colors-min.js"></script>
+    <script src="js/Marquee.js"></script>
+    <script src="js/alphabet.js"></script>
+    <script src="js/utils.js"></script>
+
+    <script src="js/ready.js"></script>
+</head>
+<body>
+<div id="notifications"></div>
+<div id="errors">Unsupported symbol<span></span>: <span></span></div>
+<div id="led"></div>
+<div class="clear"></div>
+<div id="cp">
+    <table>
+        <tr>
+            <td>
+                <a id="playstop" title="Use CTRL+UP and CTRL+DOWN to change the speed">Play</a>
+            </td>
+            <td class="input-td">
+                <div style="">
+                    <input id="text" />
+                </div>
+            </td>
+            <td class="functions-td">
+                <a id="save" title="Updates the URL">Save</a>
+                <a id="capture" title="Get the current led code (trimmed)">Capture</a>
+            </td>
+        </tr>
+    </table>
+</div>
+<div id="code">
+    <textarea></textarea>
+</div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+  .jqmarquee_column {
+	width: 8px;
+	float: left;
+	margin-right: 1px;
+} .jqmarquee_pixel {
+	height: 8px;
+	background: #008286/*cadetblue*/;
+	margin-bottom: 1px;
+	opacity: 0.08;
+	cursor: pointer;
+}

@@ -1,0 +1,62 @@
+* {
+	margin: 0;
+	padding: 0;
+	background: transparent;
+	font-family: Consolas, "Ubuntu Mono", monospace;
+} button, a {
+	cursor: pointer;
+} .clear {
+	clear: both;
+} table {
+	border-collapse: collapse;
+} input, textarea {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+} body {
+	margin: 10% auto 0;
+}
+
+  #notifications {
+      margin-bottom: 10px; padding: 10px; background: #F8F8F8;
+      display: none;
+} #errors {
+    margin-bottom: 10px;
+    background-color: #FFEBEB;
+    padding: 10px;
+    display: none;
+}
+
+  #cp {
+	border-top: 1px solid #CFDFEE;
+	margin-top: 9px;
+} #cp table {
+	margin-top: -2px;  
+} .input-td {
+	width: 99%; padding: 10px;
+} .functions-td {
+	text-align: right; white-space: nowrap;
+} #cp a {
+	padding: 6px 20px;
+	font-size: 14px;
+	border: none;
+	background-color: #4787D5;
+	color: white;
+	text-decoration: none
+} #cp #text {
+	margin-top: 1px;
+	border: 1px solid lightgrey;
+	padding: 6px 10px;
+	width: 100%;
+	font-size: 14px;
+}
+
+  #code {
+	margin: 0 auto;
+	display: none;
+} #code textarea {
+	width: 100%;
+	border: 1px solid lightgrey;
+	padding: 10px;
+	resize: none;
+	overflow: hidden;
+}
