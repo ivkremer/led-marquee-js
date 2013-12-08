@@ -6,7 +6,7 @@ This project is just for fun. Open index.html to see how it works.
 Usage
 -----
 
-[Check this](http://jsfiddle.net/user/ivkremer/fiddles/). This page is not optimized for mobile devices (hope I'll fix it sometime). You can use CTRL+UP and CTRL+DOWN to change the speed.
+[Check this](http://jsfiddle.net/user/ivkremer/fiddles/). This page is not optimized for mobile devices (you are not able to change the speed, all other things are all fine), I hope I'll fix it sometime. You can use CTRL+UP and CTRL+DOWN to change the speed in your desktop browser.
 
 License
 -------
