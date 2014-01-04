@@ -1,7 +1,7 @@
 Led Marquee JS
 ==============
 
-This project is just for fun. Open index.html to see how it works.
+This project is just for fun. Open index.html to see how it works. You can [read](http://kremer.pro/blog/led-marqee-with-javascript/) how I had come to make it.
 
 Usage
 -----
