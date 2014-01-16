@@ -1,6 +1,6 @@
   .jqmarquee_column {
 	width: 8px;
-	float: left;
+	display: inline-block;
 	margin-right: 1px;
 } .jqmarquee_pixel {
 	height: 8px;
