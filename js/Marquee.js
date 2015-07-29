@@ -1,3 +1,8 @@
+/**
+ * Led Marquee by ivkremer: https://github.com/ivkremer/led-marquee-js
+ * This code is just for fun.
+ * v.1.0.0
+ */
 var Marquee = function(id, params) {
     if (typeof jQuery == 'undefined') {
         throw 'jQuery required';
