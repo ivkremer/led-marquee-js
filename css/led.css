@@ -8,4 +8,7 @@
 	margin-bottom: 1px;
 	opacity: 0.08;
 	cursor: pointer;
+} .jqmarquee_pixel-enabled {
+	opacity: 1;
+	transition: opacity ease 0.1s;
 }

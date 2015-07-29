@@ -101,13 +101,7 @@ var Marquee = function(id, params) {
         var k = 0;
         for (var i in curr) {
             for (var j in curr[i]) {
-                if (curr[i][j]) {
-//					$pixels[k].animate({opacity: 1}, speed);
-                    $pixels[k].css({opacity: 1});
-                } else {
-//					$pixels[k].animate({opacity: 0.08}, parseInt(speed - speed * 6));
-                    $pixels[k].css({opacity: 0.08});
-                }
+                $pixels[k][curr[i][j] ? 'addClass' : 'removeClass']('jqmarquee_pixel-enabled');
                 k++;
             }
         }
